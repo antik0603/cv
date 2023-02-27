@@ -1,0 +1,182 @@
+body {
+background-color: black;
+}
+
+img {
+width:115px;
+height:60px;
+}
+
+.column {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	overflow: hidden;
+	max-width: 1000px;
+    margin: 0 auto;
+
+
+}
+
+.left-column {
+	flex: 1;
+	background-color: #c3e0e5;
+	padding: 20px;
+
+	position: relative;
+	float: left;
+    border-radius:10px 0px 0px 10px;
+    font-family: calibri light;
+    column-width:100%
+    min-width: px;
+
+}
+
+.box {
+    width:50%;
+	background-color: #f0ffff;
+	border-radius:3px;
+	margin-left: 25%;
+	padding: 3px;
+	margin-top: 10px;
+
+}
+
+.box1{
+    width: auto;
+	background-color: #f0ffff;
+	border-radius:5px;
+	margin: 5px;
+
+}
+.right-column {
+	flex: 4;
+	background-color: white;
+	color: black;
+	padding: 0px;
+	font-family: calibri light;
+	border-radius:0px 10px 10px 0px;
+}
+
+@media screen and (min-width: 600px){
+
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+color: #003366;
+margin: 15px 0px 0px 0px;
+
+
+}
+
+.experience {
+    background:  #c3e0e5;
+    width: 130px;
+    margin-left: 40%;
+    border-radius:10px;
+    padding: 3px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.education {
+    background:  #c3e0e5;
+    width: 130px;
+    margin-left: 222%;
+    border-radius:10px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.td1{
+margin: 0px 0 0 0;
+}
+
+
+@media screen and (max-width: 600px) {
+
+}
+.left {
+    flex: 1.5;
+	padding:0px;
+	position:relative;
+    float: left;
+
+}
+
+.right {
+    flex: 7;
+	background-color: white;
+	color: black;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h4{
+    font-weight: normal;
+}
+
+dl,dt{
+text-indent: -10px;
+padding-left: 10px;
+padding-right: 20px;
+margin-top: 3px
+}
+
+.diveyas {
+    margin-top: 42%;
+    margin-bottom: 142%;
+}
+
+.divbt{
+    margin-top: 0%;
+    margin-bottom: 110%;
+}
+
+.divps{
+    margin-bottom: 67%;
+}
+
+.divstc{
+    margin-bottom: 53%;
+}
+
+h3{
+margin:0px;
+}
+
+.ibms{
+margin-top: -20px;
+}
+
+td{
+    width: auto;
+    height: auto;
+
+}
+
+.side{
+    width: 10%;
+    padding-left:5px;
+}
+
+
+.line1{
+width:500%;
+
+
+}
+
+
+.certificates {
+padding-top:px;
+}
